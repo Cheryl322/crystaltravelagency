@@ -14,11 +14,11 @@ document.body.innerHTML = "<p1 style= 'color:CornflowerBlue; font-size:220%;'>No
 <table align=center cellpadding=100px>
 <br><br><br><br><br>
 <tr>
-<th><a href="https://cheryl322.github.io/crystaltravelagency.github.io/2.html" target="_parent"><img src="about us.jpg" height=300 width=300><br>About</a></th>
-<th><a href="https://cheryl322.github.io/crystaltravelagency.github.io/3.html" target="_blank"><img src="flyer.jpg" height=300 width=300><br><br>Brochure</a></th>
+<th><a href="https://cheryl322.github.io/crystaltravelagency/2.html" target="_parent"><img src="about us.jpg" height=300 width=300><br>About</a></th>
+<th><a href="https://cheryl322.github.io/crystaltravelagency/3.html" target="_blank"><img src="flyer.jpg" height=300 width=300><br><br>Brochure</a></th>
 </tr><tr>
-<th><a href="https://cheryl322.github.io/crystaltravelagency.github.io/4.html"><img src="images.jpg" height=300 width=300><br><br>Register Form</a></th>
-<th><a href="https://cheryl322.github.io/crystaltravelagency.github.io/5.html" target="_top"><img src="package.jpg" height=300 width=300><br><br>Package</a></th>
+<th><a href="https://cheryl322.github.io/crystaltravelagency/4.html"><img src="images.jpg" height=300 width=300><br><br>Register Form</a></th>
+<th><a href="https://cheryl322.github.io/crystaltravelagency/5.html" target="_top"><img src="package.jpg" height=300 width=300><br><br>Package</a></th>
 </tr><tr>
 <th><a href="https://cheryl322.github.io/crystaltravelagency.github.io/6.html"><img src="review.jpg" height=300 width=300><br><br>Review</th>
 </tr>
