@@ -1,0 +1,127 @@
+<html>
+<head><title>Register Form</title>
+<style>
+table{
+font-family:Rockwell;
+background-color:LemonChiffon;
+font-size:16pt;
+width: 30%
+}
+caption{
+font-family:Segoe Script;
+text-align:center;
+font-weight:bold;
+font-size:40pt;
+}
+th,td {
+padding: 20px;
+height: 25%;
+}
+td.title{
+font-weight:bold;
+font-family:Arial;
+font-size:large;
+background-color:#FFE4E1;
+color:#000000;
+}
+</style>
+
+<script>
+function validateForm(){
+let x = document.forms["RegisterForm"]["Name"].value;
+if (x == ""){
+alert("Please write your name.");
+return false;
+}
+var letters = /^[A-Z]/;
+if (!x.match(letters))
+{
+alert("Please write your name in CAPITAL.");
+return false;
+}
+
+let y = document.forms["RegisterForm"]["contactnum"].value;
+if (y == ""){
+alert("Please enter your phone number.");
+return false;
+}
+}
+</script>
+</head>
+<body topmargin="50">
+
+
+<center>
+<table><form name=RegisterForm onsubmit="return validateForm()">
+<caption>Mabul, The Maldives Malaysia</caption>
+<tr>
+<td class='title'>Name:</td>
+<td><input type=text name=studentname autofocus></td>
+</tr>
+
+<tr>
+<td class='title'>IC Number:</td>
+<td><input type=text name=icnum></td>
+</tr>
+
+<tr>
+<td class='title'>Gender:</th>
+<td><input type=radio name=gender value=Male>Male
+<input type=radio name=gender value=Female>Female</td>
+</tr>
+
+<tr>
+<td class='title'>Contact Number:</td>
+<td><input type=text name=contactnum></td>
+</tr>
+
+<tr>
+<td class='title'>Email Address:</td>
+<td><input type=email name=studentemail></td></tr>
+
+<tr>
+<td class='title'>
+Package:
+</td><td>
+<select>
+<option value="O">-List of Packages-</option>
+<optgroup label="Packages">
+<option value=DCS_S1>Package A</option>
+<option value=DCS_S2>Package B</option>
+<option value=DCS_S3>Package C</option>
+
+<tr>
+<td class='title'>
+Accommodation:
+</td><td>
+<select>
+<option value="O">-List of Accommodation-</option>
+<optgroup label="Accommodation">
+<option value=DCS_S1>Mabul Water Bungalow Resort</option>
+<option value=DCS_S2>Scuba junkie Mabul Island</option>
+
+<tr>
+<td class='title'>
+Add On Activity:
+</td><td>
+<select>
+<option value="O">-List of Add On Activity-</option>
+<optgroup label="Add On Activity">
+<option value=DCS_S1>Diving</option>
+<option value=DCS_S2>Parasailing</option>
+<option value=DCS_S3>Banana Boat</option>
+<option value=DCS_S4>Fly Board</option>
+</select>
+</td>
+</tr>
+
+</table>
+<br><br>
+
+<input type=submit value=Submit>
+<input type=reset value=Reset>
+</td></tr><br><br>
+</form>
+</center>  
+</body>
+</html>
